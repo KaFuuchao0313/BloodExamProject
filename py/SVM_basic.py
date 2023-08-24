@@ -14,7 +14,7 @@ y = data['result'].values
 # 将数据集分为训练集和测试集
 # test_size=0.2代表train:test=8:2
 # random_state=x则是不同的随机数组，可以填随意的数字用以验证
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.9, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # 创建一个SVM分类器
 svm_classifier = SVC(kernel='linear', C=1.0)
