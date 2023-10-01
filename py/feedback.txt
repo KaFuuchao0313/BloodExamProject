@@ -1,0 +1,6 @@
+0.6158112961285869
+{'memory': None, 'steps': [('scaler', StandardScaler()), ('svr', SVR(C=10, gamma=0.01))], 'verbose': False, 'scaler': StandardScaler(), 'svr': SVR(C=10, gamma=0.01), 'scaler__copy': True, 'scaler__with_mean': True, 'scaler__with_std': True, 'svr__C': 10, 'svr__cache_size': 200, 'svr__coef0': 0.0, 'svr__degree': 3, 'svr__epsilon': 0.1, 'svr__gamma': 0.01, 'svr__kernel': 'rbf', 'svr__max_iter': -1, 'svr__shrinking': True, 'svr__tol': 0.001, 'svr__verbose': False}
+
+Fitting 5 folds for each of 60 candidates, totalling 300 fits
+Pipeline(steps=[('scaler', StandardScaler()), ('svr', SVR(C=10, gamma=0.01))])
+(最优解)
