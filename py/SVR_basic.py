@@ -76,6 +76,7 @@ gs.fit(X_train,y_train)
 param_arr=gs.best_estimator_
 print(param_arr)
 
+
 # 进行预测
 #features = ['WBC', 'LY','GR','MO','RBC','Hgb','HCT','MCV','MCH','RDW','PLT','PCT','MPV','PDW']
 #predictions = svr_model.predict([features])
