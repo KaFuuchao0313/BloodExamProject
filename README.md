@@ -11,3 +11,9 @@ About the blood routine examination and clear up those…
 （甚至尝试出了1.0，感动14亿玩家）
 
 p.s. 1(anemia) 2(bacterial infection)
+
+- 11.18
+
+中期答辩，目前已经完善了svm、svr、knn和神经网络的代码。
+
+下一步是HTML。
