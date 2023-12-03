@@ -1,0 +1,13 @@
+CNN model output
+
+SimpleCNN(
+  (cv1): Conv2d(14, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (relu1): ReLU()
+  (p1): MaxPool2d(kernel_size=3, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (cv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (relu2): ReLU()
+  (p2): MaxPool2d(kernel_size=3, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (input): Linear(in_features=5184, out_features=128, bias=True)
+  (relu3): ReLU()
+  (output): Linear(in_features=128, out_features=3, bias=True)
+)
