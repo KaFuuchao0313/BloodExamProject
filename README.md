@@ -17,3 +17,7 @@ p.s. 1(anemia) 2(bacterial infection)
 中期答辩，目前已经完善了svm、svr、knn和神经网络的代码。
 
 下一步是HTML。
+
+- 12.03
+
+我服了，怎么会有程序莫名其妙地跑起来了。
